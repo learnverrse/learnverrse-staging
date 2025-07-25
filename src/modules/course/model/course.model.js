@@ -20,6 +20,7 @@ const chapterSchema = new Schema({
   title: { type: String },
   content: { type: String },
   video: { type: String },
+  quizReference: { type: String }, // Reference to quizId in Quiz model
 });
 
 // Section Schema
